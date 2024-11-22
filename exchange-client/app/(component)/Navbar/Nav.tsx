@@ -122,53 +122,17 @@ export default function Nav() {
               </div>
             </div>
             <div className="hidden justify-self-center xl:inline-flex">
-              <div className="flex items-center justify-between flex-row w-[340px] flex-1 cursor-pointer overflow-hidden rounded-xl bg-baseBackgroundL2 px-1 ring-0 focus-within:ring-2 focus-within:ring-accentBlue">
-                <div className="flex items-center flex-row flex-1">
-                  <div className="mx-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-search h-4 w-4 text-baseIcon"
-                    >
-                      <circle cx="11" cy="11" r="8"></circle>
-                      <path d="m21 21-4.3-4.3"></path>
-                    </svg>
-                  </div>
-                  <input
-                    aria-label="Search markets"
-                    type="text"
-                    aria-autocomplete="list"
-                    autoComplete="off"
-                    placeholder="Search markets"
-                    id="react-aria-:R2f96H2:"
-                    role="combobox"
-                    aria-expanded="false"
-                    autoCorrect="off"
-                    spellCheck="false"
-                    className="h-8 w-full border-0 bg-baseBackgroundL2 p-0 text-sm font-normal text-baseTextHighEmphasis placeholder-baseTextLowEmphasis outline-none focus:ring-0"
-                  />
-                </div>
-                <div className="mx-1 select-none rounded-lg border border-baseBorderMed bg-baseBackgroundL2 px-3 text-baseIcon">
-                  /
-                </div>
-              </div>
+              
             </div>
             <div className="col-span-2 flex flex-row justify-self-end animate-in fade-in xl:col-span-1">
               <Link
-                className="my-auto ml-10 text-nowrap rounded-lg bg-greenText/[16%] px-3 py-1.5 text-sm font-semibold text-greenText hover:opacity-90"
+                className="my-auto ml-10 text-nowrap rounded-lg bg-red-500 px-3 py-1.5 text-sm font-semibold text-greenText hover:opacity-90"
                 href="/signup"
               >
                 Sign up
               </Link>
               <Link
-                className="my-auto ml-4 mr-4 text-nowrap rounded-lg bg-accentBlue/[16%] px-3 py-1.5 text-sm font-semibold text-accentBlue hover:opacity-90"
+                className="my-auto ml-4 mr-4 text-nowrap rounded-lg bg-blue-400 px-3 py-1.5 text-sm font-semibold text-accentBlue hover:opacity-90"
                 href="/login"
               >
                 Sign in
